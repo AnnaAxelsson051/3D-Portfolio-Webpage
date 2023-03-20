@@ -4,10 +4,9 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen 
-    mx-auto">
+    <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute 
-      inset-0 top-[120px] max-w-7xl max auto flex
+      inset-0 top-[120px] max-w-7xl max auto flex 
       flex-row items-start gap-5`}>
         <div className="flex flex-col 
         justify-center items-center mt-5">
@@ -32,7 +31,7 @@ const Hero = () => {
               y: [0, 24, 0]
             }}
             transition={{
-            duration:1.5,
+            duration: 1.5,
             repeat: Infinity,
             repeatType: 'loop'
             }}
