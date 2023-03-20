@@ -4,8 +4,8 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
+    typescript,
     css,
     reactjs,
     redux,
@@ -73,7 +73,7 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Typescript",
       icon: typescript,
     },
     {
