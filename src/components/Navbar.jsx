@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {styles} from '../styles';
 import {navLinks} from '../constants';
-import {logo, menu, close}from '../assets'
+import {logo, menu, close} from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -20,8 +20,7 @@ to="/"
 className="flex items-center gap-2"
 onClick={() => {
   setActive("");
-  window.scrollTo(0,0)
-}}>
+  window.scrollTo(0,0)}}>
 <img src ={logo} 
 alt="logo" 
 className="w-9 h-9 object-contain"/>
@@ -35,7 +34,7 @@ className="w-9 h-9 object-contain"/>
 <ul className="list-none hidden sm:flex
 flex-row gap-10">
 {navLinks.map((link) =>(
-  <li
+  <li 
   key={link.id}
   className={`${
     active === link.title
@@ -43,8 +42,7 @@ flex-row gap-10">
     : "text-secondary"
   } hover:text-white text-[18px]
   font-medium cursor-pointer`}
-  onClick={() => setActive(link.title)}
-  >
+  onClick={() => setActive(link.title)}>
     <a href={`#${link.id}`}>{link.title}</a>
   </li>
 ))}
@@ -74,9 +72,7 @@ justify-end items-start flex-col gap-4">
   } font-poppins font-medium cursor-pointer text-[16px]`}
   onClick={() => {
     setToggle(!toggle);
-    setActive(link.title);
-  }}
-  >
+    setActive(link.title);}}>
     <a href={`#${link.id}`}>{link.title}</a>
   </li>
 ))}
