@@ -9,7 +9,13 @@ const Computers = () => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
 
   return (
-   <mesh></mesh>
+   <mesh>
+    <hemisphereLight intensity={0.15}
+    groundColor="black"/>
+    <pintLight intensity={1}/>
+    <primitive
+    object={computer.scene}/>
+   </mesh>
   )
 }
 
