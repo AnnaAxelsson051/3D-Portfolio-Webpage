@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute 
-      inset-0 top-[70px] max-w-7xl mx-auto flex 
+      inset-0 top-[60px] max-w-7xl mx-auto flex 
       flex-row items-start gap-5`}>
         <div className="flex flex-col 
         justify-center items-center mt-5">
@@ -15,12 +15,12 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Anna</span></h1>
-        <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop user interfaces and web <br className="sm:block hidden"/> applications </p>
+        <p className={`${styles.heroSubText} text-white-100`}>I develop user interfaces and web <br className="sm:block hidden"/> applications </p>
         </div>
       </div>
 
       <ComputersCanvas/>
-      <div className="absolute xs:bottom-10 
+      <div className="absolute xs:bottom-2 
       bottom-32 w-full flex justify-center 
       items-center">
         <a href="#about">
