@@ -18,9 +18,21 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
+  const handleChange =(e) =>{}
+
+  const handleSubmit = (e) =>{}
+
   return(
-    <div>Contact</div>
+    <div className="xl-mt-12 xl:flex-row flex-col-reverse 
+    flex gap-10 overflow-hidden">
+      <motion.div
+      variants={slideIn('left', "tween", 0.2,1 )}
+      className="flex-[0.75] bg-black-100 p8 rounded-2x1">
+<p className={styles.sectionSubtext}>Contact me</p>
+<h3 className={styles.sectionHeadText}>Contact.</h3>
+      </motion.div>
+    </div>
   )
 }
 
-export default Contact
+export default SectionWrapper(Contact,"contact")
