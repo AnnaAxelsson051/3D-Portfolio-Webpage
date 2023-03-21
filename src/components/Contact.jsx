@@ -86,8 +86,12 @@ className="mt-12 flex flex-col gap8">
  rounded-xl">
   {loading ? 'Sending...' : 'Send'}
  </button>
-
 </form>
+      </motion.div>
+      <motion.div
+      variants={slideIn('right', "tween", 0.2,1 )}
+      className="xl:flex1 xl:h-auto md:h-[550px] h-[350px]">
+
       </motion.div>
     </div>
   )
