@@ -80,7 +80,12 @@ className="mt-12 flex flex-col gap8">
      outlined-none
       border-none font-medium"></textarea>
   </label>
- 
+ <button type="submit"
+ className="bg-tertiary py-3 px-8 outline-none w-fit text-white 
+ font-bold shadow-md shadow-primary 
+ rounded-xl">
+  {loading ? 'Sending...' : 'Send'}
+ </button>
 
 </form>
       </motion.div>
