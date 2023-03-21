@@ -46,6 +46,7 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
+           
           </div>
         </div>
 
