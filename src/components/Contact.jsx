@@ -50,6 +50,37 @@ className="mt-12 flex flex-col gap8">
      outlined-none
       border-none font-medium"></input>
   </label>
+  <label className="flex flex-col">
+    <span className="text-white font-medium mb-4">
+      Sender email
+    </span>
+    <input 
+    type="text"
+    name="name"
+    value={form.email}
+    onChange={handleChange}
+    placeholder="Sender email"
+    className="bg-tertiary py-4 px-6
+     placeholder:text-secondary text-white rounded-1g 
+     outlined-none
+      border-none font-medium"></input>
+  </label>
+  <label className="flex flex-col">
+    <span className="text-white font-medium mb-4">
+     Message
+    </span>
+    <textarea 
+    rows="7"
+    name="name"
+    value={form.message}
+    onChange={handleChange}
+    placeholder="Message"
+    className="bg-tertiary py-4 px-6
+     placeholder:text-secondary text-white rounded-1g 
+     outlined-none
+      border-none font-medium"></textarea>
+  </label>
+ 
 
 </form>
       </motion.div>
