@@ -37,14 +37,10 @@ const About = () => {
 
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 
     text-secondary text-[17px] max-w-3x1 leading-[30px]">
-    Test text: Testamente möjliggör till en fördelning av 
-    kvarlåtenskapen i enlighet med testators vilja 
-    framför de regler som anges i arvsordningen. För 
-    det fall att ett giltigt testamente föreligger kan 
-    detta medföra ett partiellt eller totalt åsidosättande 
-    av arvsordningens fördelningsregler. Upprättande av testamente 
-    är således ett sätt att ge den individuella viljan genomslag 
-    framför traditionen med släktarv..
+      I am a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
+      I also have experience with frameworks such as React, Angular and Three.js.
+     I'm a quick learner and have a great passion for developing new software solutions and 
+     bettering already existing ones.
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service, index) =>(
