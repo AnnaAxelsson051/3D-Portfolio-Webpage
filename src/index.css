@@ -10,8 +10,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
-  /*font-family: "Poppins", sans-serif;*/
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
 }
@@ -104,6 +104,22 @@
 }
 
 .pink-text-gradient {
+  background: #fb54b8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fb54b8,
+    #fb6ec2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fb54b8,
+    #fb6ec2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
   background: #ec008c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -114,6 +130,39 @@
     to top,
     #ec008c,
     #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grey-text-gradient {
+  background: #707070; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #707070,
+    #969696,
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #707070,
+    #969696,
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.purple-text-gradient {
+  background: #6b4beb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #6b4beb,
+    #7b5df1
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #6b4beb,
+    #7b5df1
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
