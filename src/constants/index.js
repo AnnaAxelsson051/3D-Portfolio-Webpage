@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    paintchat,
+    ecommerce,
+    chasit,
     threejs,
   } from "../assets";
   
@@ -32,12 +32,13 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Education and Projects",
     },
     {
       id: "contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -117,55 +118,59 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Degree of Master of Laws, LL.M.",
+      company_name: "Stockholm University",
       icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      iconBg: "#ffffff", //#383E56
+      date: "Aug 2015 - Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "IT-Law & Gdpr",
+        "I wrote my master thesis on the relationship between law and technology",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Online courses",
+      company_name: "Udemy",
       icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      iconBg: "#ffffff", //#E6DEDD
+      date: "May 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Java Programming Masteclass",
+        "Build Responsive Real-World Websites with Html and Css",
+        "The Complete Javascript Course 2022",
+        "Advanced Css and Sass",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Java Developer",
+      company_name: "IT-Högskolan",
       icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      iconBg: "#ffffff", //#383E56
+      date: "Aug 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Java Programming",
+        "Development and databases",
+        "Java tools and frameworks",
+        "Complex Java development",
+        "Web services and integrations",
+        "Web application development",
+        "Agile development",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Full stack Developer .NET",
+      company_name: "Chas Academy",
       icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      iconBg: "#ffffff", //#E6DEDD
+      date: "Aug 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "IT Tech and Operations",
+        "Programmering in C# and .NET",
+        "Project methodology and agile methods",
+        "Backenddevelopment and databases",
+        "Frontend development and UX",
+        "Programming methodology and testing",
+        "Web technology",
       ],
     },
   ];
@@ -199,88 +204,98 @@ import {
   
   const projects = [
     {
-      name: "Chasit Law",
+      name: "Chasit Law",  
       description:
-        "Webpage that allows users to find extensive information about succession law, providing a convenient, efficient and cost free solution for legal information needs.",
-      tags: [
+        "An informative law webpage that allows users to find extensive information about succession law, providing a convenient, efficient and cost free solution for legal information needs.",
+        tags: [
+     
         {
-          name: "HTML",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Html",
           color: "green-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: chasit,
       source_code_link: "https://github.com/",
+      
     },
     
     {
-      name: "Job IT",
+      name: "Paint and Chat",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A collaboration promoting application that enables multiple users in different locations to draw on the same canvas whilst chatting, and save images in SVG-format.",
       tags: [
         {
-          name: "react",
+          name: "JavaFX",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "XML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: paintchat,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "E-commerce store",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive e-commerce platform that allows users to search for items and make purchases, complete with security and payment processing.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Java Spring Boot",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap Css",
           color: "pink-text-gradient",
         },
+        {
+          name: "MySql",
+          color: "grey-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: ecommerce,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Chasit Law",
+      name: "Dating App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An app that lets users connect over similar interests and communicate via chat, security protection with log in and hashed passwords.",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "React",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Css",
           color: "pink-text-gradient",
         },
+        {
+          name: "MongoDb",
+          color: "purple-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: ecommerce,
       source_code_link: "https://github.com/",
     },
   ];
