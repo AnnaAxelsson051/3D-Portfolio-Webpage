@@ -37,9 +37,9 @@ const About = () => {
 
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 
     text-secondary text-[17px] max-w-3x1 leading-[30px]">
-      I am a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
+      I'm a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
       I also have experience with frameworks such as React, Angular and Three.js.
-     I'm a quick learner and have a great passion for developing new software solutions and 
+     I'm a quick learner with a great passion for developing new software solutions and 
      bettering already existing ones.
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
