@@ -24,18 +24,22 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary2 p-5 rounded-2xl sm:w-[360px] w-full'
+        className=' bg-black p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
       >
-        <div className='relative w-full h-[250px]'>
+        {/*rounded-2xl 
+        tertiary*/}
+        <div className='relative w-full h-[250px] '>
           <img
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded'
           />
           {/*rounded var - rounded-2xl
+          #1d1836
+          rounded oxå fin
           bg-tertiary2 var bg tertiary*/}
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-1 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -45,7 +49,10 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
+          
             </div>
+         
+          
            
           </div>
         </div>
@@ -83,11 +90,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
+          The following projects showcases my knowledge through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          ability to solve problems, work with different technologies,
+          and manage projects.
         </motion.p>
       </div>
 
