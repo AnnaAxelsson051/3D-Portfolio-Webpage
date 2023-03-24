@@ -17,8 +17,8 @@ const Hero = () => {
 {/*violet-gradient */}
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-primary2`}>Welcome to my page. <span className="text-white"></span></h1>
-        <p className={`${styles.heroSubText} text-white`}>I develop backend solutions, user interfaces and web <br className="sm:block hidden"/> applications </p>
+          <h1 className={`${styles.heroHeadText} text-primary2`}>Welcome to my page. <span className="text-white-100"></span></h1>
+        <p className={`${styles.heroSubText} text-white-100`}>I develop backend solutions, user interfaces and web <br className="sm:block hidden"/> applications </p>
         </div>
       </div>
       {/*lila: text-[#915eff] */}

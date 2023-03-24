@@ -92,7 +92,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder=""
-              className='bg-tertiary3 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary3 py-4 px-6 placeholder:text-secondary outline-none border-none text-white rounded-lg font-medium'
             />
             {/*bg-tertiary*/}
           </label>

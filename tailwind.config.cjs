@@ -13,7 +13,7 @@ module.exports = {
         tertiary2: "#a69064",
         tertiary4: "#011228", //   #011837
         tertiary5: "#010d1d",
-        tertiary3: " #010812",
+        tertiary3: "#0a1b32", //#071a35  #041834   #071a35
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3", //#f3f3f3

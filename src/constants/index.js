@@ -229,7 +229,7 @@ import {
     },
     
     {
-      name: "Friennypaint",
+      name: "Paint App",
       description:
         "A collaboration promoting application that enables multiple users in different locations to draw on the same canvas whilst chatting, and save images in SVG-format.",
       tags: [
@@ -256,11 +256,11 @@ import {
       tags: [
         {
           name: "Java Spring Boot",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "Angular",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "Bootstrap Css",
@@ -268,7 +268,7 @@ import {
         },
         {
           name: "MySql",
-          color: "grey-text-gradient",
+          color: "violet-text-gradient",
         },
       ],
       image: ecommerce,
@@ -293,7 +293,7 @@ import {
         },
         {
           name: "MongoDb",
-          color: "purple-text-gradient",
+          color: "violet-text-gradient",
         },
       ],
       image: collab,
