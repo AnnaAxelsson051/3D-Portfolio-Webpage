@@ -23,6 +23,7 @@ import {
     ecommerce,
     chasit,
     threejs,
+    collab,
   } from "../assets";
   
   export const navLinks = [
@@ -228,7 +229,7 @@ import {
     },
     
     {
-      name: "Paint and Chat",
+      name: "Friennypaint",
       description:
         "A collaboration promoting application that enables multiple users in different locations to draw on the same canvas whilst chatting, and save images in SVG-format.",
       tags: [
@@ -274,9 +275,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Dating App",
+      name: "Collab'",
       description:
-        "An app that lets users connect over similar interests and communicate via chat, security protection with log in and hashed passwords.",
+        "An app that enables programmers log in, connect via chat and find collaborators for their future projects. Providing a great way for people to learn and develop together",
       tags: [
         {
           name: "JavaScript",
@@ -295,7 +296,7 @@ import {
           color: "purple-text-gradient",
         },
       ],
-      image: ecommerce,
+      image: collab,
       source_code_link: "https://github.com/",
     },
   ];

@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import paintchat from "./paintchat.png";
 import ecommerce from "./ecommerce.png";
 import chasit from "./chasit.png";
+import collab from "./collab.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   paintchat,
   ecommerce,
   chasit,
+  collab,
 };

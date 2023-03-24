@@ -10,9 +10,10 @@ const Hero = () => {
       flex-row items-start gap-5`}>
         <div className="flex flex-col 
         justify-center items-center mt-5 ">
+          <div className="w-5 h-5 rounded-full green-pink-gradient"/>
 {/*<div className="w-5 h-5 rounded-full bg-white"/>*/}
 {/*<div className="w-1 sm:h-80 h-40 green-pink-gradient"/>*/}
-<div className="w-0.5 sm:h-60 h-40 green-pink-gradient"/>
+<div className="w-1 sm:h-60 h-40 green-pink-gradient1"/>
 {/*violet-gradient */}
         </div>
         <div>
@@ -27,7 +28,7 @@ const Hero = () => {
       bottom-32 w-full flex justify-center 
       items-center ">
         <a href="#about">
-          <div className="w-[33px] h-[46px] rounded-3xl border-2 
+          <div className="w-[33px] h-[46px] rounded-3xl border-1
           green-pink-gradient flex justify-center items-start p-2 shadow-card">
             {/*border-secondary ist för green pink gradient */}
             <motion.dev 

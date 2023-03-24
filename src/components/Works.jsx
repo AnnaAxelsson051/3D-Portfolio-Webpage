@@ -24,17 +24,17 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className=' bg-black p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
+        className=' bg-black p-5 rounded-2xl sm:w-[370px] w-full'
       >
         {/*rounded-2xl 
-        tertiary*/}
-        <div className='relative w-full h-[250px] '>
+        tertiary shadow-card sm:w-[360px]*/}
+        <div className='relative w-full h-[270px] '>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded'
+            className='w-full h-full object-cover rounded-2xl'
           />
-          {/*rounded var - rounded-2xl
+          {/*h-[250px] rounded var - rounded-2xl
           #1d1836
           rounded oxå fin
           bg-tertiary2 var bg tertiary*/}
@@ -98,7 +98,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-4'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
