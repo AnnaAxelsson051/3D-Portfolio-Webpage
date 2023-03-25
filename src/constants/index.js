@@ -212,15 +212,15 @@ import {
      
         {
           name: "JavaScript",
-          color: "gold-text-gradient2",
+          color: "blue-text-gradient",
         },
         {
           name: "Html",
-          color: "gold-text-gradient2",
+          color: "green-text-gradient",
         },
         {
           name: "Css",
-          color: "gold-text-gradient2",
+          color: "pink-text-gradient",
         },
       ],
       image: chasit,
@@ -268,7 +268,7 @@ import {
         },
         {
           name: "MySql",
-          color: "violet-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: ecommerce,
@@ -281,19 +281,19 @@ import {
       tags: [
         {
           name: "JavaScript",
-          color: "white",
+          color: "blue-text-gradient",
         },
         {
           name: "React",
-          color: "white",
+          color: "green-text-gradient",
         },
         {
           name: "Css",
-          color: "white",
+          color: "pink-text-gradient",
         },
         {
           name: "MongoDb",
-          color: "white",
+          color: "orange-text-gradient",
         },
       ],
       image: collab,

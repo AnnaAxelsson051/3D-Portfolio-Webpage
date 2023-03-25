@@ -91,7 +91,8 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects shows my knowledge in the technologies above. 
+          The following projects showcases my knowledge through
+          real-world examples of my work.
           Each project is briefly described with
           links to code repositories. It reflects my problem solving capacity, 
           my ability to work with different technologies
