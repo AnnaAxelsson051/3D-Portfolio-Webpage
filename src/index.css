@@ -60,6 +60,40 @@
 }
 
 
+.gold-text-gradient {
+  background: #a69064; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #a69064,
+    #a69064
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #a69064,
+    #a69064
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-text-gradient2 {
+  background: #f1deb8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f1deb8,
+    #f1deb8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f1deb8,
+    #f1deb8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
 .green-pink-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);

@@ -212,15 +212,15 @@ import {
      
         {
           name: "JavaScript",
-          color: "blue-text-gradient",
+          color: "gold-text-gradient2",
         },
         {
           name: "Html",
-          color: "green-text-gradient",
+          color: "gold-text-gradient2",
         },
         {
           name: "Css",
-          color: "pink-text-gradient",
+          color: "gold-text-gradient2",
         },
       ],
       image: chasit,
@@ -277,23 +277,23 @@ import {
     {
       name: "Collab'",
       description:
-        "An app that enables programmers log in, connect via chat and find collaborators for their future projects. Providing a great way for people to learn and develop together",
+        "An application that enables programmers to find collaborators for their future projects or find projects they want to collaborate on by logging in, browsing through project ideas and connecting via chat. Providing a great way for people to learn and develop together",
       tags: [
         {
           name: "JavaScript",
-          color: "blue-text-gradient",
+          color: "white",
         },
         {
           name: "React",
-          color: "green-text-gradient",
+          color: "white",
         },
         {
           name: "Css",
-          color: "pink-text-gradient",
+          color: "white",
         },
         {
           name: "MongoDb",
-          color: "violet-text-gradient",
+          color: "white",
         },
       ],
       image: collab,

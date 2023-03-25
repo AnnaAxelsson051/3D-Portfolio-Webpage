@@ -34,7 +34,7 @@ const About = () => {
 <p className={styles.sectionSubText}>Introduction</p>
 <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
-    
+    {/*text-white-100 */}
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 
     text-secondary text-[17px] max-w-3x1 leading-[30px]">
       I'm a software developer with knowledge in Java, C#, Html, Css and JavaScript. 

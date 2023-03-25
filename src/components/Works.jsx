@@ -28,7 +28,7 @@ const ProjectCard = ({
       >
         {/*rounded-2xl 
         tertiary shadow-card sm:w-[360px]*/}
-        <div className='relative w-full h-[270px] '>
+        <div className='relative w-full h-[250px] '>
           <img
             src={image}
             alt='project_image'
@@ -68,7 +68,7 @@ const ProjectCard = ({
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
-              #{tag.name}
+              {tag.name}
             </p>
           ))}
         </div>
@@ -91,12 +91,17 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects showcases my knowledge through
+          The following projects shows my knowledge in the technologies above. 
+          Each project is briefly described with
+          links to code repositories. It reflects my problem solving capacity, 
+          my ability to work with different technologies
+          and manage projects.
+        </motion.p>
+        {/*   The following projects showcases my knowledge through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve problems, work with different technologies,
-          and manage projects.
-        </motion.p>
+          and manage projects.*/}
       </div>
 
       <div className='mt-20 flex flex-wrap gap-4'>
