@@ -54,7 +54,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Passionate Learner",
+      title: "Quick Learner",
       icon: web,
     },
     {

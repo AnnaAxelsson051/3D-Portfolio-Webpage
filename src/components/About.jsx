@@ -41,9 +41,12 @@ const About = () => {
       and databases, as well as hands-on experience with frameworks like React. Additionally,
        I have practical knowledge of designing and implementing architectures like MVC and 
        microservices. I have a strong passion for creating innovative software solutions and 
-       enhancing existing ones. A quick learner, I am always eager to tackle new challenges 
+       enhancing existing ones. As a highly adept problem solver, I embrace every opportunity 
+       to take on fresh challenges and continually enhance my skills, consistently delivering 
+       exceptional results 
+      {/*A quick learner, I am always eager to tackle new challenges 
        and continuously improve my skills to deliver exceptional results
-      {/*I'm a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
+       I'm a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
       I also have experience with frameworks such as React, Angular and Three.js.
      I'm a quick learner with a great passion for developing new software solutions and 
   bettering already existing ones.*/}
