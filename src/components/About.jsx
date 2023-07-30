@@ -37,10 +37,16 @@ const About = () => {
     {/*text-white-100 */}
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 
     text-secondary text-[17px] max-w-3x1 leading-[30px]">
-      I'm a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
+      I am a versatile software developer with expertise in Java, C#, HTML, CSS, JavaScript, SQL, 
+      and databases, as well as hands-on experience with frameworks like React. Additionally,
+       I have practical knowledge of designing and implementing architectures like MVC and 
+       microservices. I have a strong passion for creating innovative software solutions and 
+       enhancing existing ones. A quick learner, I am always eager to tackle new challenges 
+       and continuously improve my skills to deliver exceptional results
+      {/*I'm a software developer with knowledge in Java, C#, Html, Css and JavaScript. 
       I also have experience with frameworks such as React, Angular and Three.js.
      I'm a quick learner with a great passion for developing new software solutions and 
-     bettering already existing ones.
+  bettering already existing ones.*/}
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service, index) =>(
