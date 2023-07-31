@@ -28,7 +28,7 @@ const ProjectCard = ({
       >
         {/*rounded-2xl 
         tertiary shadow-card sm:w-[360px]*/}
-        <div className='relative w-full h-[280px] '>
+        <div className='relative w-full h-[250px] '>
           <img
             src={image}
             alt='project_image'
