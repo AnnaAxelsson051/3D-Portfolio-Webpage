@@ -18,12 +18,14 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-primary2`}>Welcome to my page. <span className="text-white-100"></span></h1>
-        <p className={`${styles.heroSubText} text-white`}>  I am a versatile full stack developer  specializing in <br className="sm:block hidden"/>crafting dynamic and responsive web applications.</p>
+        <p className={`${styles.heroSubText} text-white`}>  I am a passionate and versatile full-stack developer, <br className="sm:block hidden"/>dedicated to crafting dynamic and responsive web applications</p>
         </div>
       </div>
       {/*lila: text-[#915eff] 
       text-white-100
-      I am a versatile full stack developer  specializing in <br className="sm:block hidden"/>crafting dynamic and responsive web applications.  */}
+      I am a passionate full stack developer focused on building dynamic and responsive web applications
+      I am a versatile full stack developer  specializing in <br className="sm:block hidden"/>crafting dynamic and responsive web applications. 
+      I am a passionate and versatile full-stack developer, dedicated to crafting dynamic and responsive web applications */}
 
       <ComputersCanvas/>
       <div className="absolute xs:bottom-2 

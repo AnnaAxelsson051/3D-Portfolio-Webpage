@@ -62,39 +62,44 @@ import {
       icon: creator,
     },
   ];
-  
+  /*
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
+      //Java
       name: "Typescript",
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
+      //C#
       name: "Redux Toolkit",
       icon: redux,
+    },
+    {
+      //HTML
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      //CSS
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+     //Javascript
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "figma",
+      icon: figma,
     },
     {
       name: "MongoDB",
@@ -109,8 +114,73 @@ import {
       icon: git,
     },
     {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+  ];*/
+
+  const technologies = [
+    {
+      name: "Typescript",
+      icon: typescript,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      
+      //Spring
       name: "figma",
       icon: figma,
+    },
+    {
+      //Aspnet core
+      name: "Node JS",
+      icon: nodejs,
+      
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+     
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+     
+    },
+    {
+       //Mysql
+       name: "Tailwind CSS",
+       icon: tailwind,
+      
+    },
+    {
+      //Postgresql
+      name: "git",
+      icon: git,
+    },
+    {
+       //Mongodb
+       name: "MongoDB",
+       icon: mongodb,
     },
     {
       name: "docker",
@@ -127,7 +197,7 @@ import {
       date: "Aug 2015 - Jan 2021",
       points: [
         "IT-Law & Gdpr",
-        "I wrote my master thesis on the relationship between law and technology",
+        "My thesis was about the relationship between law and technology",
       ],
     },
     {
