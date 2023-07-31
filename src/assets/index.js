@@ -27,9 +27,18 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import paintchat from "./paintchat.png";
-import ecommerce from "./ecommerce.png";
 import chasit from "./chasit.png";
 import collab from "./collab.png";
+import forecast from "./forecast.png";
+import moviesystem from "./moviesystem.png";
+import techstore from "./techstore.png";
+import shoestore from "./shoestore.png";
+import appstore from "./appstore.png";
+import supermario from "./supermario.png";
+import dbnormalization from "./dbnormalization.png";
+import algosort from "./algosort.png";
+import artstore from "./artstore.png"
+
 
 export {
   logo,
@@ -58,7 +67,16 @@ export {
   starbucks,
   tesla,
   paintchat,
-  ecommerce,
   chasit,
   collab,
+  forecast,
+  moviesystem,
+  techstore,
+  shoestore,
+  appstore,
+  supermario,
+  dbnormalization,
+  algosort,
+  artstore
+  
 };
