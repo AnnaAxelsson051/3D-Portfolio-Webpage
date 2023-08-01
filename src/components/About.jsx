@@ -37,10 +37,9 @@ const About = () => {
     {/*text-white-100 */}
     <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 
     text-secondary text-[17px] max-w-3x1 leading-[30px]">
-      My expertise range from Java, C#, HTML, CSS, JavaScript, SQL, 
-      and databases to frameworks like Spring Boot, ASP.NET Core and React as well as 
-      architectural patterns
-      like MVC and micro services. I have 
+      My expertise range from Java, C#, HTML, CSS, JavaScript, SQL 
+      and databases to frameworks like Spring Boot, ASP.NET Core and React. I also have 
+      hands on experience with architectural patterns like MVC and microservices. I have 
       a strong passion for creating innovative software solutions and 
        enhancing already existing ones. As a highly adept problem solver, I embrace every 
        opportunity to take on new challenges and continuously enhance my skills. 

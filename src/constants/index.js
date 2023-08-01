@@ -315,9 +315,9 @@ import {
     },
 
     {
-      name: "Art Store",
+      name: "Unlimited Art",
       description:
-        "Customers can register and log in with hashed passwords, filter, sort, search and add products to basket, place orders and pay for them with Stripe. Admin can log in and modify products in the system with details and image.",
+        "An art store built with microservice architecture where customers can log in add items to cart, apply coupons, check out and receive an order confirmation email.",
       tags: [
         {
           name: ".NET Web API",
@@ -339,6 +339,10 @@ import {
           name: "Microservices",
           color: "yellow-text-gradient",
         },
+        {
+          name: "Azure Service Bus",
+          color: "gold-text-gradient",
+        },
        
       ],
       image: artstore,
@@ -351,11 +355,11 @@ import {
         "An app that enables programmers to find collaborators for their future projects by logging in, browsing project ideas and connecting via chat. ",
       tags: [
         {
-          name: "JavaScript",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "React",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
@@ -363,8 +367,12 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "MongoDb",
+          name: "NodeJs",
           color: "orange-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "yellow-text-gradient",
         },
       ],
       image: collab,
@@ -418,8 +426,12 @@ import {
           color: "orange-text-gradient",
         },
         {
-          name: "Minimal Api",
+          name: "Docker",
           color: "yellow-text-gradient",
+        },
+        {
+          name: "Minimal Api",
+          color: "gold-text-gradient",
         },
       ],
       image: moviesystem,
@@ -502,30 +514,6 @@ import {
       image: appstore,
       source_code_link: "https://github.com/",
     },
-
-    {
-      name: "Database Normalization",
-      description:
-        "A normalization script in SQL that reads data from a CSV file and normalizes it to 1-3NF, creating a number of useful tables and views.",
-      tags: [
-        {
-          name: "SQL",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Docker",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Mermaid",
-          color: "pink-text-gradient",
-        },
-      
-      ],
-      image: dbnormalization,
-      source_code_link: "https://github.com/",
-    },
-
     {
       name: "Sorting Algorithm Visualizer",
       description:
@@ -549,6 +537,31 @@ import {
       source_code_link: "https://github.com/",
     },
     {
+      name: "Database Normalization Script",
+      description:
+        "A normalization script in SQL that reads data from a CSV file and normalizes it to 1-3NF, creating a number of useful tables and views.",
+      tags: [
+        {
+          name: "SQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Mermaid",
+          color: "pink-text-gradient",
+        },
+      
+      ],
+      image: dbnormalization,
+      source_code_link: "https://github.com/",
+    },
+
+
+    /*
+    {
       name: "Retro Super Mario Game",
       description:
         "A game with multiple levels.",
@@ -562,18 +575,14 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Css",
-          color: "pink-text-gradient",
-        },
-        {
           name: "three.js",
-          color: "yellow-text-gradient",
+          color: "pink-text-gradient",
         },
       
       ],
       image: supermario,
       source_code_link: "https://github.com/",
-    },
+    },*/
 
 
   
