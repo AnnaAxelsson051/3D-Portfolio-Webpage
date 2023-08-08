@@ -157,12 +157,13 @@ import {
       company_name: "Udemy",
       icon: tesla,
       iconBg: "#ffffff", //#E6DEDD
-      date: "May 2021 - May 2022",
+      date: "May 2021 - Aug 2022",
       points: [
         "Java Programming Masteclass",
         "Build Responsive Real-World Websites with Html and Css",
         "The Complete Javascript Course 2022",
         "Advanced Css and Sass",
+        "Java Data Structures & Algorithms"
       ],
     },
     {
@@ -230,7 +231,7 @@ import {
     {
       name: "Chasit Law",  
       description:
-        "An informative law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing a convenient, efficient, and cost-free solution for legal information needs.",
+        "A law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing a convenient, efficient and cost-free solution for legal information needs.",
         tags: [
      
         {
@@ -246,12 +247,16 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "ÄB (1958:637)",
+          name: "ÄB (1958:637) & precedents",
           color: "orange-text-gradient",
         },
         {
           name: "Responsive",
           color: "yellow-text-gradient",
+        },
+        {
+          name: "Animations",
+          color: "violet-text-gradient",
         },
       ],
       image: chasit,
@@ -260,9 +265,9 @@ import {
     },
     
     {
-      name: "Paint App",
+      name: "Paint & Chat App",
       description:
-        "A collaboration promoting application that enables multiple users in different locations to draw on the same canvas whilst chatting, and save images in SVG-format.",
+        "A full stack MVC paint app that enables users to draw images on a personal or shared canvas, facilitating collaborative drawing while also providing the ability to modify and save the artwork as SVG. The app also includes built-in chat functionality to enhance communication and collaboration among users.",
       tags: [
         {
           name: "JavaFX",
@@ -280,6 +285,14 @@ import {
           name: "Mvc",
           color: "orange-text-gradient",
         },
+        {
+          name: "TCP - Sockets",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "File I/O",
+          color: "violet-text-gradient",
+        },
       ],
       image: paintchat,
       source_code_link: "https://github.com/",
@@ -287,7 +300,7 @@ import {
     {
       name: "Tech Store",
       description:
-        "Customers can register and log in with hashed passwords, filter, sort, search and add products to basket, place orders and pay for them with Stripe. Admin can log in and modify products in the system with details and image.",
+        "A full stack e-commerce store where customers can register and log in with hashed passwords, filter, sort, search and add products to basket, place orders and pay for them with Stripe. Admin can log in and modify products in the system with details and image.",
       tags: [
         {
           name: ".NET Web API",
@@ -298,16 +311,20 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Material UI",
+          name: "React",
           color: "pink-text-gradient",
         },
         {
-          name: "SQLite",
+          name: "Material UI",
           color: "orange-text-gradient",
         },
         {
-          name: "Stripe",
+          name: "Stripe-Api",
           color: "yellow-text-gradient",
+        },
+        {
+          name: "SQLite",
+          color: "violet-text-gradient",
         },
       ],
       image: techstore,
@@ -315,9 +332,9 @@ import {
     },
 
     {
-      name: "Unlimited Art",
+      name: "Art Gallery with Microservices and Cloud Messaging",
       description:
-        "An art store built with microservice architecture where customers can log in add items to cart, apply coupons, check out and receive an order confirmation email.",
+        "A full stack art gallery app with microservice architecture and security enabling customers to log in, filter products, check out with Stripe and receive rewards. Utilizing Ocelot gateway for streamlined microservice communication and Azure Service Bus for reliable and efficient messaging across the application.",
       tags: [
         {
           name: ".NET Web API",
@@ -332,16 +349,20 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "SQLite",
+          name: "SQL Server Db",
           color: "orange-text-gradient",
         },
         {
-          name: "Microservices",
+          name: "Ocelot gateway",
           color: "yellow-text-gradient",
         },
         {
+          name: "Stripe-Api",
+          color: "violet-text-gradient",
+        },
+        {
           name: "Azure Service Bus",
-          color: "gold-text-gradient",
+          color: "white-text-gradient",
         },
        
       ],
@@ -350,9 +371,9 @@ import {
     },
 
     {
-      name: "Collab'",
+      name: "Coding Collaboration Finder",
       description:
-        "An app that enables programmers to find collaborators for their future projects by logging in, browsing project ideas and connecting via chat. ",
+        "A full stack meeting app with security implementations that enables programmers to find collaborators for their future projects by logging in, browsing other user's detailed profiles/coding project ideas and if mutual interest is identified connecting via chat. ",
       tags: [
         {
           name: "React",
@@ -374,6 +395,14 @@ import {
           name: "MongoDb",
           color: "yellow-text-gradient",
         },
+        {
+          name: "Router-dom",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "white-text-gradient",
+        },
       ],
       image: collab,
       source_code_link: "https://github.com/",
@@ -381,7 +410,7 @@ import {
     {
       name: "Forecast Fetcher",
       description:
-        "A web service that fetches data from multiple open weather forecast services, returning the best weather forecast for Stockholm 24 hours in advance. ",
+        "A full stack rest web service app that fetches data from multiple open weather forecast services, returning the best weather forecast for Stockholm 24 hours in advance. ",
       tags: [
         {
           name: "Spring Boot",
@@ -396,8 +425,16 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Html",
           color: "orange-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Smhi, Met & Meteo - Api",
+          color: "violet-text-gradient",
         },
       ],
       image: forecast,
@@ -407,10 +444,10 @@ import {
     {
       name: "Movie Spot",
       description:
-        "An application that allows users to collect all their favourite movies and genres on a personal users page, add ratings to movies and get movie suggestions.",
+        "An movie system application that allows users to collect all their favourite movies and genres on a personal users page, add ratings to movies and get personalized movie recommendations.",
       tags: [
         {
-          name: ".NET Web API",
+          name: ".NET Web Api",
           color: "blue-text-gradient",
         },
         {
@@ -431,7 +468,11 @@ import {
         },
         {
           name: "Minimal Api",
-          color: "gold-text-gradient",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "Tmdb-Api",
+          color: "white-text-gradient",
         },
       ],
       image: moviesystem,
@@ -443,7 +484,7 @@ import {
     {
       name: "Shoe Central",
       description:
-        "The store has security implementations where the customer can log in, browse, filter and search for products, make purchases and checkout with Paypal or credit card and recieve an order confirmation via E-mail.",
+        "A full stack MVC e-commerce platform featuring distinct customer and admin logins, robust security measures, PayPal or credit card checkout, and email confirmation. Administrators, shippers, and salespersons can log in and manage the product system, users, customer orders, sales reports, and shipping.",
       tags: [
         {
           name: "Spring Boot",
@@ -462,12 +503,12 @@ import {
           color: "orange-text-gradient",
         },
         {
-          name: "Paypal",
+          name: "PayPal-Api",
           color: "yellow-text-gradient",
         },
         {
-          name: "Mvc",
-          color: "gold-text-gradient",
+          name: "Responsive",
+          color: "violet-text-gradient",
         },
         {
           name: "JUnit",
@@ -480,7 +521,7 @@ import {
     {
       name: "App Store",
       description:
-        "Customers can log in, browse, filter and add products to cart, check out and recieve an email confirmation. Admin can log in modify products and handle orders",
+        "A full stack MVC e-commerce store with distinct customer and admin logins, enabling filtering, purchasing, email confirmation for customers, and admin product/order management",
       tags: [
         {
           name: "Spring Boot",
@@ -503,8 +544,8 @@ import {
           color: "yellow-text-gradient",
         },
         {
-          name: "Mvc",
-          color: "gold-text-gradient",
+          name: "Spring mail",
+          color: "violet-text-gradient",
         },
         {
           name: "JUnit",
