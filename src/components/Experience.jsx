@@ -8,7 +8,8 @@ import {experiences} from '../constants';
 import {SectionWrapper} from '../hoc';
 import {textVariant} from '../utils/motion';
  {/*black var #1d1836 
-7px solid #232631*/}
+7px solid #232631
+black*/}
 const ExperienceCard = ({experience}) =>(
   <VerticalTimelineElement contentStyle={{background: 'black', 
   color: '#fff'}}

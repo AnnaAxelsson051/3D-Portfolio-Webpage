@@ -146,7 +146,7 @@ import {
       company_name: "Stockholm University",
       icon: starbucks,
       iconBg: "#ffffff", //#383E56
-      date: "Aug 2015 - Jan 2021",
+      date: "Aug 2015 - Dec 2020",
       points: [
         "IT-Law & Gdpr",
         "My thesis was about the relationship between law and technology",
@@ -157,7 +157,7 @@ import {
       company_name: "Udemy",
       icon: tesla,
       iconBg: "#ffffff", //#E6DEDD
-      date: "May 2021 - Aug 2022",
+      date: "Feb 2021 - Aug 2022",
       points: [
         "Java Programming Masteclass",
         "Build Responsive Real-World Websites with Html and Css",
@@ -190,9 +190,9 @@ import {
       date: "Aug 2022 - Present",
       points: [
         "IT Tech and Operations",
-        "Programmering in C# and .NET",
+        "Programming in C# and .NET",
         "Project methodology and agile methods",
-        "Backenddevelopment and databases",
+        "Backend development and databases",
         "Frontend development and UX",
         "Programming methodology and testing",
         "Web technology",
@@ -203,24 +203,24 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "",
+      name: "Person1",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "",
+      name: "Person2",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "",
+      name: "Person3",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -229,7 +229,7 @@ import {
   
   const projects = [
     {
-      name: "Chasit Law",  
+      name: "Swedish Succession Law Guide",  
       description:
         "A law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing a convenient, efficient and cost-free solution for legal information needs.",
         tags: [
@@ -260,7 +260,7 @@ import {
         },
       ],
       image: chasit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Swedish-Succession-Law-Guide",
       
     },
     
@@ -295,7 +295,7 @@ import {
         },
       ],
       image: paintchat,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Paint-and-Chat-Application",
     },
     {
       name: "Tech Store",
@@ -328,7 +328,7 @@ import {
         },
       ],
       image: techstore,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Tech-Store",
     },
 
     {
@@ -367,7 +367,7 @@ import {
        
       ],
       image: artstore,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Art-Gallery-with-Microservices-Gateway-and-Cloud-Messaging",
     },
 
     {
@@ -405,7 +405,7 @@ import {
         },
       ],
       image: collab,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Coding-Collaboration-Finder",
     },
     {
       name: "Forecast Fetcher",
@@ -438,7 +438,7 @@ import {
         },
       ],
       image: forecast,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Forecast-Fetcher",
     },
 
     {
@@ -476,13 +476,13 @@ import {
         },
       ],
       image: moviesystem,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Movie-System",
     },
     
     
 
     {
-      name: "Shoe Central",
+      name: "Shoes Central Store",
       description:
         "A full stack MVC e-commerce platform featuring distinct customer and admin logins, robust security measures, PayPal or credit card checkout, and email confirmation. Administrators, shippers, and salespersons can log in and manage the product system, users, customer orders, sales reports, and shipping.",
       tags: [
@@ -516,7 +516,7 @@ import {
         },
       ],
       image: shoestore,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Shoes-Central-Store",
     },
     {
       name: "App Store",
@@ -553,7 +553,7 @@ import {
         },
       ],
       image: appstore,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/App-Store",
     },
     {
       name: "Sorting Algorithm Visualizer",
@@ -575,7 +575,7 @@ import {
       
       ],
       image: algosort,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Sorting-Algorithm-Visualizer",
     },
     {
       name: "Database Normalization Script",
@@ -597,7 +597,7 @@ import {
       
       ],
       image: dbnormalization,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnnaAxelsson051/Database-Design-Normalization",
     },
 
 

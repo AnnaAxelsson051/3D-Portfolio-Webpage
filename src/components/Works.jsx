@@ -28,7 +28,7 @@ const ProjectCard = ({
       >
         {/*rounded-2xl 
         tertiary shadow-card sm:w-[360px]*/}
-        <div className='relative w-full h-[240px] '>
+        <div className='relative w-full h-[220px] '>
           <img
             src={image}
             alt='project_image'
@@ -91,12 +91,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects showcases my knowledge through
-          real-world examples of my work.
-          Each project is briefly described with
-          links to code repositories. It reflects my problem solving capacity, 
-          my ability to work with different technologies
-          and manage projects.
+          The projects below demonstrate my practical skills through real-world 
+          examples of my work. Each project is briefly described and includes 
+          links to corresponding code repositories, showcasing my problem-solving 
+          abilities, versatility with various technologies, and project management capabilities.
         </motion.p>
         {/*   The following projects showcases my knowledge through
           real-world examples of my work. Each project is briefly described with

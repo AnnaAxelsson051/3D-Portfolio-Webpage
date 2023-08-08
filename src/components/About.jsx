@@ -26,7 +26,7 @@ justify-evenly items-center flex-col">
     </Tilt>
   )
 }
-
+//bg-black
 const About = () => {
   return (
     <>
