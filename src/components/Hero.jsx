@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-primary2`}>Welcome to my page. <span className="text-white-100"></span></h1>
-        <p className={`${styles.heroSubText} text-white`}>  I am a passionate and versitile full-stack developer, <br className="sm:block hidden"/>dedicated to crafting dynamic and responsive web applications</p>
+        <p className={`${styles.heroSubText} text-white`}>  I am a driven and versitile full-stack developer, <br className="sm:block hidden"/>dedicated to crafting dynamic and responsive web applications</p>
         </div>
       </div>
       {/*lila: text-[#915eff] 
@@ -32,9 +32,14 @@ const Hero = () => {
       bottom-32 w-full flex justify-center 
       items-center ">
         <a href="#about">
-          <div className="w-[33px] h-[46px] rounded-3xl border-2 border-white
+          <div className="green-pink-gradient w-[33px] h-[46px] rounded-3xl border-2 border-white
            flex justify-center items-start p-2 shadow-card ">
-            {/*green-pink-gradient border-secondary ist för green pink gradient */}
+            {/*green-pink-gradient border-secondary ist för green pink gradient 
+            
+              <div className="w-[33px] h-[46px] rounded-3xl border-2 border-white
+           flex justify-center items-start p-2 shadow-card ">
+           
+           */}
             <motion.dev 
             animate={{
               y: [0, 15, 0]
@@ -44,7 +49,7 @@ const Hero = () => {
             repeat: Infinity,
             repeatType: 'loop'
             }}
-            className="w-5 h-3 rounded-full  mb-1 bg-secondary"/>
+            className="w-5 h-3 rounded-full  mb-1 bg-secondary green-pink-gradient2"/>
           </div>
           {/*bg-white black-gradient ist för green pink gradient */}
         </a>
