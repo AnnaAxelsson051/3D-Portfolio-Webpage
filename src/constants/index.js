@@ -229,74 +229,82 @@ import {
   
   const projects = [
     {
-      name: "Swedish Succession Law Guide",  
+      name: "Art Gallery with Microservices and Cloud Messaging",
       description:
-        "A law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing a convenient, efficient and cost-free solution for legal information needs.",
-        tags: [
-     
+        "A full stack art gallery app with microservice architecture and security enabling customers to log in, filter products, check out with Stripe and receive rewards. Utilizing Ocelot gateway for streamlined microservice communication and Azure Service Bus for reliable and efficient messaging across the application.",
+      tags: [
         {
-          name: "JavaScript",
+          name: ".NET Web API",
           color: "blue-text-gradient",
         },
         {
-          name: "Html",
+          name: "C#",
           color: "green-text-gradient",
         },
         {
-          name: "Css",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
         {
-          name: "ÄB (1958:637) & precedents",
+          name: "SQL Server Db",
           color: "orange-text-gradient",
+        },
+        {
+          name: "Ocelot gateway",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Stripe-Api",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "Azure Service Bus",
+          color: "grey-text-gradient2",
+        },
+       
+      ],
+      image: artstore,
+      source_code_link: "https://github.com/AnnaAxelsson051/Art-Gallery-with-Microservices-Gateway-and-Cloud-Messaging",
+    },
+
+    {
+      name: "Shoes Central Store",
+      description:
+        "A full stack MVC e-commerce platform featuring distinct customer and admin logins, robust security measures, PayPal or credit card checkout and email confirmation. Administrators, shippers, and salespersons can log in and manage the product system, users, customer orders, sales reports, and shipping.",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Java",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Thymeleaf",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "PayPal-Api",
+          color: "yellow-text-gradient",
         },
         {
           name: "Responsive",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Animations",
           color: "violet-text-gradient",
         },
-      ],
-      image: chasit,
-      source_code_link: "https://github.com/AnnaAxelsson051/Swedish-Succession-Law-Guide",
-      
-    },
-    
-    {
-      name: "Paint & Chat App",
-      description:
-        "A full stack MVC paint app that enables users to draw images on a personal or shared canvas, facilitating collaborative drawing while also providing the ability to modify and save the artwork as SVG. The app also includes built-in chat functionality to enhance communication and collaboration among users.",
-      tags: [
         {
-          name: "JavaFX",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "XML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Mvc",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "TCP - Sockets",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "File I/O",
-          color: "violet-text-gradient",
+          name: "JUnit",
+          color: "grey-text-gradient2",
         },
       ],
-      image: paintchat,
-      source_code_link: "https://github.com/AnnaAxelsson051/Paint-and-Chat-Application",
+      image: shoestore,
+      source_code_link: "https://github.com/AnnaAxelsson051/Shoes-Central-Store",
     },
+
     {
       name: "Tech Store",
       description:
@@ -331,82 +339,7 @@ import {
       source_code_link: "https://github.com/AnnaAxelsson051/Tech-Store",
     },
 
-    {
-      name: "Art Gallery with Microservices and Cloud Messaging",
-      description:
-        "A full stack art gallery app with microservice architecture and security enabling customers to log in, filter products, check out with Stripe and receive rewards. Utilizing Ocelot gateway for streamlined microservice communication and Azure Service Bus for reliable and efficient messaging across the application.",
-      tags: [
-        {
-          name: ".NET Web API",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "C#",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "SQL Server Db",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Ocelot gateway",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Stripe-Api",
-          color: "violet-text-gradient",
-        },
-        {
-          name: "Azure Service Bus",
-          color: "white-text-gradient",
-        },
-       
-      ],
-      image: artstore,
-      source_code_link: "https://github.com/AnnaAxelsson051/Art-Gallery-with-Microservices-Gateway-and-Cloud-Messaging",
-    },
-
-    {
-      name: "Coding Collaboration Finder",
-      description:
-        "A full stack meeting app with security implementations that enables programmers to find collaborators for their future projects by logging in, browsing other user's detailed profiles/coding project ideas and if mutual interest is identified connecting via chat. ",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "NodeJs",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "MongoDb",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Router-dom",
-          color: "violet-text-gradient",
-        },
-        {
-          name: "Axios",
-          color: "white-text-gradient",
-        },
-      ],
-      image: collab,
-      source_code_link: "https://github.com/AnnaAxelsson051/Coding-Collaboration-Finder",
-    },
+    
     {
       name: "Forecast Fetcher",
       description:
@@ -441,6 +374,41 @@ import {
       source_code_link: "https://github.com/AnnaAxelsson051/Forecast-Fetcher",
     },
 
+    
+    {
+      name: "Paint & Chat App",
+      description:
+        "A full stack MVC paint app that enables users to draw images on a personal or shared canvas, facilitating collaborative drawing while also providing the ability to modify and save the artwork as SVG. The app also includes built-in chat functionality to enhance communication and collaboration among users.",
+      tags: [
+        {
+          name: "JavaFX",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "XML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mvc",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "TCP - Sockets",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "File I/O",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: paintchat,
+      source_code_link: "https://github.com/AnnaAxelsson051/Paint-and-Chat-Application",
+    },
+    
     {
       name: "Movie Spot",
       description:
@@ -472,56 +440,21 @@ import {
         },
         {
           name: "Tmdb-Api",
-          color: "white-text-gradient",
+          color: "grey-text-gradient2",
         },
       ],
       image: moviesystem,
       source_code_link: "https://github.com/AnnaAxelsson051/Movie-System",
     },
-    
+  
     
 
-    {
-      name: "Shoes Central Store",
-      description:
-        "A full stack MVC e-commerce platform featuring distinct customer and admin logins, robust security measures, PayPal or credit card checkout, and email confirmation. Administrators, shippers, and salespersons can log in and manage the product system, users, customer orders, sales reports, and shipping.",
-      tags: [
-        {
-          name: "Spring Boot",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Java",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Thymeleaf",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "MySQL",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "PayPal-Api",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Responsive",
-          color: "violet-text-gradient",
-        },
-        {
-          name: "JUnit",
-          color: "white-text-gradient",
-        },
-      ],
-      image: shoestore,
-      source_code_link: "https://github.com/AnnaAxelsson051/Shoes-Central-Store",
-    },
+   
+    
     {
       name: "App Store",
       description:
-        "A full stack MVC e-commerce store with distinct customer and admin logins, enabling filtering, purchasing, email confirmation for customers, and admin product/order management",
+        "A full stack MVC e-commerce store with distinct customer and admin logins, enabling filtering, purchasing, email confirmation for customers, and admin product/order management.",
       tags: [
         {
           name: "Spring Boot",
@@ -549,11 +482,85 @@ import {
         },
         {
           name: "JUnit",
-          color: "white-text-gradient",
+          color: "grey-text-gradient2",
         },
       ],
       image: appstore,
       source_code_link: "https://github.com/AnnaAxelsson051/App-Store",
+    },
+
+    {
+      name: "Coding Collaboration Finder",
+      description:
+        "A full stack meeting app with security implementations that enables programmers to find collaborators for their future projects by logging in, browsing other user's detailed profiles/coding project ideas and if mutual interest is identified connecting via chat. ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NodeJs",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "MongoDb",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Router-dom",
+          color: "violet-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "grey-text-gradient2",
+        },
+      ],
+      image: collab,
+      source_code_link: "https://github.com/AnnaAxelsson051/Coding-Collaboration-Finder",
+    },
+    
+    {
+      name: "Swedish Succession Law Guide",  
+      description:
+        "A law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing a convenient, efficient and cost-free solution for legal information needs.",
+        tags: [
+     
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "ÄB (1958:637) & precedents",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Responsive",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Animations",
+          color: "violet-text-gradient",
+        },
+      ],
+      image: chasit,
+      source_code_link: "https://github.com/AnnaAxelsson051/Swedish-Succession-Law-Guide",
+      
     },
     {
       name: "Sorting Algorithm Visualizer",
@@ -601,11 +608,11 @@ import {
     },
 
 
-    /*
+    
     {
       name: "Retro Super Mario Game",
       description:
-        "A game with multiple levels.",
+        "A Retro Super Mario game with multiple levels.",
       tags: [
         {
           name: "JavaScript",
@@ -622,8 +629,8 @@ import {
       
       ],
       image: supermario,
-      source_code_link: "https://github.com/",
-    },*/
+      source_code_link: "https://github.com/AnnaAxelsson051/Super-Mario-Game",
+    },
 
 
   

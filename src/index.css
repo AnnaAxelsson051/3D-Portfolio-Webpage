@@ -38,12 +38,14 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+
+
+.violet-gradient2 {
+  background: #8f5ff5;
+  background: linear-gradient(-90deg, #8f5ff5 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #8f5ff5 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -197,51 +199,83 @@
   -webkit-text-fill-color: transparent;
 }
 
+.pink-text-gradient2 {
+  background: #d60e86; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .grey-text-gradient {
-  background: #707070; /* fallback for old browsers */
+  background: #707070; 
   background: -webkit-linear-gradient(
     to top,
     #707070,
     #969696,
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to top,
     #707070,
     #969696,
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-
-.violet-text-gradient {
-  background: #6b4beb; /* fallback for old browsers */
+.grey-text-gradient2 {
+  background: #aaa9a9; 
   background: -webkit-linear-gradient(
     to top,
-    #6b4beb,
-    #7b5df1
-  ); /* Chrome 10-25, Safari 5.1-6 */
+    #aaa9a9,
+    #edecec,
+  ); 
   background: linear-gradient(
     to top,
-    #6b4beb,
-    #7b5df1
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    #aaa9a9,
+    #edecec,
+  ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/*
 .violet-text-gradient {
-  background: #4f38ac; /* fallback for old browsers */
+  background: #4f38ac; 
   background: -webkit-linear-gradient(
     to top,
     #4f38ac,
     #755ed3
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to top,
     #4f38ac,
     #755ed3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
+
+.violet-text-gradient {
+  background: #6b52cd; 
+  background: -webkit-linear-gradient(
+    to top,
+    #6b52cd,
+    #a995fa
+  ); 
+  background: linear-gradient(
+    to top,
+    #6b52cd,
+    #a995fa
+  ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

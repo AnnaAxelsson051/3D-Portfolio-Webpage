@@ -93,8 +93,9 @@ const Works = () => {
         >
           The projects below demonstrate my practical skills through real-world 
           examples of my work. Each project is briefly described and includes 
-          links to corresponding code repositories, showcasing my problem-solving 
-          abilities, versatility with various technologies, and project management capabilities.
+          a link to a corresponding code repository, showcasing my problem-solving 
+          abilities, versatility with various technologies, and project management 
+          capabilities.
         </motion.p>
         {/*   The following projects showcases my knowledge through
           real-world examples of my work. Each project is briefly described with
