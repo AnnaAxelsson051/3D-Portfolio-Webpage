@@ -4,7 +4,7 @@
 
 ## User Interface
 
-![Alt text](user-interface.png)
+![User Interface](user-interface.png)
 
 ---
 
@@ -18,8 +18,8 @@ A dynamic and responsive 3D portfolio crafted using Vite, React, Tailwind CSS, a
 
 ## Technologies used
 
-Vite / React
-three.js
-tailwind Css
-Node.js
-Responsive
+- Vite / React
+- Three.js
+- Tailwind Css
+- Node.js
+- Responsive
