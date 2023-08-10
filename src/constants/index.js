@@ -229,9 +229,9 @@ import {
   
   const projects = [
     {
-      name: "Art Gallery with Microservices and Cloud Messaging",
+      name: "Art App with Microservices and Cloud Messaging",
       description:
-        "A full stack art gallery app with microservice architecture and security enabling customers to log in, filter products, check out with Stripe and receive rewards. Utilizing Ocelot gateway for streamlined microservice communication and Azure Service Bus for reliable and efficient messaging across the application.",
+        "Art gallery with security enabling customers to log in, filter products, check out with Stripe and receive rewards.",
       tags: [
         {
           name: ".NET Web API",
@@ -270,7 +270,7 @@ import {
     {
       name: "Shoes Central Store",
       description:
-        "A full stack MVC e-commerce platform featuring distinct customer and admin logins, robust security measures, PayPal or credit card checkout and email confirmation. Administrators, shippers, and salespersons can log in and manage the product system, users, customer orders, sales reports, and shipping.",
+        "An MVC e-commerce platform with distinct logins for customers and admin, robust security and checkout via PayPal or credit card. Including email confirmation and comprehensive management tools for admin.",
       tags: [
         {
           name: "Spring Boot",
@@ -308,7 +308,7 @@ import {
     {
       name: "Tech Store",
       description:
-        "A full stack e-commerce store where customers can register and log in with hashed passwords, filter, sort, search and add products to basket, place orders and pay for them with Stripe. Admin can log in and modify products in the system with details and image.",
+        "A store where customers can log in with hashed passwords, filter and search for products and checkout with Stripe. Admin can log in and modify products in the system with details and image.",
       tags: [
         {
           name: ".NET Web API",
@@ -343,7 +343,7 @@ import {
     {
       name: "Forecast Fetcher",
       description:
-        "A full stack rest web service app that fetches data from multiple open weather forecast services, returning the best weather forecast for Stockholm 24 hours in advance. ",
+        "A web app that aggregates multiple weather services to provide the optimal 24-hour forecast for Stockholm. ",
       tags: [
         {
           name: "Spring Boot",
@@ -378,7 +378,7 @@ import {
     {
       name: "Paint & Chat App",
       description:
-        "A full stack MVC paint app that enables users to draw images on a personal or shared canvas, facilitating collaborative drawing while also providing the ability to modify and save the artwork as SVG. The app also includes built-in chat functionality to enhance communication and collaboration among users.",
+        "An MVC paint app for collaborative drawing on shared or individual canvases, with SVG save functionality and integrated chat.",
       tags: [
         {
           name: "JavaFX",
@@ -412,7 +412,7 @@ import {
     {
       name: "Movie Spot",
       description:
-        "An movie system application that allows users to collect all their favourite movies and genres on a personal users page, add ratings to movies and get personalized movie recommendations.",
+        "A movie app where users curate favorite films and genres, rate movies, and receive personalized recommendations.",
       tags: [
         {
           name: ".NET Web Api",
@@ -454,7 +454,7 @@ import {
     {
       name: "App Store",
       description:
-        "A full stack MVC e-commerce store with distinct customer and admin logins, enabling filtering, purchasing, email confirmation for customers, and admin product/order management.",
+        "An MVC e-commerce store with customer login, product filtering, purchasing, email confirmations and admin tools.",
       tags: [
         {
           name: "Spring Boot",
@@ -490,9 +490,9 @@ import {
     },
 
     {
-      name: "Coding Collaboration Finder",
+      name: "Code Collab' Finder",
       description:
-        "A full stack meeting app with security implementations that enables programmers to find collaborators for their future projects by logging in, browsing other user's detailed profiles/coding project ideas and if mutual interest is identified connecting via chat. ",
+        "A meeting app allowing programmers to find project collaborators by viewing profiles and ideas, with chat for mutual interests. ",
       tags: [
         {
           name: "React",
@@ -528,9 +528,9 @@ import {
     },
     
     {
-      name: "Swedish Succession Law Guide",  
+      name: "Succession Law Guide",  
       description:
-        "A law webpage that allows users to find comprehensive information about Swedish succession law with legal references, providing a convenient, efficient and cost-free solution for legal information needs.",
+        "A law app offering comprehensive information on Swedish succession law with references, providing a free and efficient legal resource.",
         tags: [
      
         {
@@ -562,6 +562,7 @@ import {
       source_code_link: "https://github.com/AnnaAxelsson051/Swedish-Succession-Law-Guide",
       
     },
+    /*
     {
       name: "Sorting Algorithm Visualizer",
       description:
@@ -632,7 +633,7 @@ import {
       source_code_link: "https://github.com/AnnaAxelsson051/Super-Mario-Game",
     },
 
-
+*/
   
 
  

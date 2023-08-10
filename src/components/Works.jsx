@@ -27,8 +27,8 @@ const ProjectCard = ({
         className=' bg-black p-5 rounded-2xl sm:w-[370px] w-full'
       >
         {/*rounded-2xl 
-        tertiary shadow-card sm:w-[360px]*/}
-        <div className='relative w-full h-[220px] '>
+        tertiary shadow-card sm:w-[360px]   220*/}
+        <div className='relative w-full h-[200px] '>
           <img
             src={image}
             alt='project_image'
